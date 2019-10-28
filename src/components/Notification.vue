@@ -3,7 +3,9 @@
     <div ref="editorElem" style="text-align:left;"></div>
     <div>
       <h1>Display</h1><br>
-      <input v-model="editor.editorContent">
+      <div v-html="editorContent">
+        editorContent
+      </div>
     </div>
   </div>
 </template>
