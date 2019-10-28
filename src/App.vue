@@ -2,12 +2,15 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
+<!--    <router-link></router-link>-->
   </div>
 </template>
 
 <script>
+  import Notification from "@/components/Notification"
 export default {
-  name: 'App'
+  name: 'App',
+  components :[Notification]
 }
 </script>
 
